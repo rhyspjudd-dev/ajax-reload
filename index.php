@@ -24,7 +24,7 @@
                     target = $this.data('target');
 
                     //load target page into container
-                    container.load(target + '/../.php');
+                    container.load(target + '../.php');
 
                     // Stop normal line behaviour
                     return false;
