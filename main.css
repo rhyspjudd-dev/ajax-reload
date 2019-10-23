@@ -1,18 +1,36 @@
 body {
-    background: #4a4e4d;
-    color: #fe8a71;
+    color: #4a4e4d;
     text-align: center;
 }
 
 nav {
     color: #0e9aa7;
     background-color: #0e9aa7;
-    width: 75%;
-    line-height: 5em;
+    border: 1px solid #f6cd61;
+    width: 25%;
+    border-radius: 10px;
+    line-height: 2em;
     margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+a {
+    color:  #f6cd61;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0px;
 }
 
 li {
+    color:  #f6cd61;
     display: inline-block;
     list-style-type: none;
 }
@@ -29,4 +47,5 @@ section {
     width: 50vw;
     background:  #0e9aa7;
     margin: auto;
+    border-radius: 10px;
 }

@@ -44,6 +44,7 @@
 <nav>
     <ul>
         <li><a href="#" data-target="home">Home</a></li>
+        <li>&#8711;</li>
         <li><a href="#" data-target="about">About</a></li>
     </ul>
 </nav>
