@@ -1,6 +1,7 @@
 body {
     color: #4a4e4d;
     text-align: center;
+    font-family: 'Liu Jian Mao Cao', cursive;
 }
 
 nav {
@@ -41,6 +42,7 @@ h1 {
 
 p {
     line-height: 5em;
+    font-family: 'Roboto', sans-serif;
 }
 
 section {
