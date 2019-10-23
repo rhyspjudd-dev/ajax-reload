@@ -6,9 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Ajax Live Reload</title>
 
+    <link rel="stylesheet" href="main.css">
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
-    <script href="/js/ajax.js"></script>
+    <script src="js/ajax.js"></script>
+
+    <style>
+        
+    </style>
 
     <script>
     
