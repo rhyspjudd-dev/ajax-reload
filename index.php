@@ -47,10 +47,12 @@
         <li><a href="#" data-target="about">About</a></li>
     </ul>
 </nav>
-        <!-- Content contianer for reload -->
-    <div id="content">
-        <?php include 'home.php'; ?>
-    </div>
+        <section>
+            <!-- Content contianer for reload -->
+            <div id="content">
+                <?php include 'home.php'; ?>
+            </div>
+        </section>
 
 </body>
 </html>
