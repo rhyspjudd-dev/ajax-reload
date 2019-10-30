@@ -21,6 +21,7 @@ nav {
 a {
     color:  #f6cd61;
     text-decoration: none;
+    pointer-events: fill;
 }
 
 ul {
