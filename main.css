@@ -34,6 +34,7 @@ li {
     color:  #f6cd61;
     display: inline-block;
     list-style-type: none;
+    pointer-events: none;
 }
 
 h1 {
