@@ -24,9 +24,9 @@
 
 <nav>
     <ul>
-        <li><a href="#" data-target="home">Home</a></li>
+        <li><a href="#" data-target="home">Photo#1</a></li>
         <li>&#8711;</li>
-        <li><a href="#" data-target="about">About</a></li>
+        <li><a href="#" data-target="about">Photo#2</a></li>
     </ul>
 </nav>
         <section>
