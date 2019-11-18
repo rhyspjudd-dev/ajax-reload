@@ -16,7 +16,24 @@
 
     <script>
     
+    $(document).ready(function(){
+    //set the trigger and container
+    var trigger = $('nav ul li a'),
+    container = $('#content');
 
+    // Fire on click
+    trigger.on('click', function(){
+        // Set $this for resuse. Set target for data attribute
+        var $this = $(this)
+            target = $this.data('target');
+
+            //load target page into container
+            container.load(target + '.php');
+
+            // Stop normal line behaviour
+            return false;
+    });
+});
     </script>
 
     </head>
@@ -24,9 +41,9 @@
 
 <nav>
     <ul>
-        <li><a href="#" data-target="home">Photo#1</a></li>
+        <li><a href="#" data-target="home">Home</a></li>
         <li>&#8711;</li>
-        <li><a href="#" data-target="about">Photo#2</a></li>
+        <li><a href="#" data-target="about">About</a></li>
     </ul>
 </nav>
         <section>
