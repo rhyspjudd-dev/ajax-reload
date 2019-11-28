@@ -58,4 +58,5 @@ article {
 
 main {
     padding: 0px;
+    pointer-events: fill;
 }
