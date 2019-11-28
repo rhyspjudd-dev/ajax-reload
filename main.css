@@ -55,3 +55,7 @@ section {
 article {
     float: left;
 }
+
+main {
+    padding: 0px;
+}
