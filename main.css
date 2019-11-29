@@ -60,4 +60,6 @@ main {
     padding: 0px;
     pointer-events: fill;
     color: green;
+    fill: #0e9aa7;
+    background: #f6cd61;
 }
